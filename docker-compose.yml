@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  transpoc:
+    image: htetlinmaung/realtime
+    build: .
+    ports:
+      - "3040:3040"
+    environment:
+      - PORT=3040
