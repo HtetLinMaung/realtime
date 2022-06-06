@@ -8,3 +8,4 @@ services:
       - "3040:3040"
     environment:
       - PORT=3040
+      - ACCESS_KEY=9f21cd977cf5e0e2
